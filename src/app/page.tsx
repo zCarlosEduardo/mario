@@ -1,12 +1,17 @@
 import NavMenu from "@/components/navmenu";
-import RodaPe from "@/components/rodape";
-import Contato from "@/components/section/contato";
-import Servicos from "@/components/section/servicos";
 import Sobre from "@/components/section/sobre";
+import Servicos from "@/components/section/servicos";
+import Contato from "@/components/section/contato";
+import RodaPe from "@/components/rodape";
+import Head from 'next/head'
 
 export default function Home() {
   return (
-    <html className="scroll-smooth">
+    <html>
+      <Head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </Head>
+      <body className="scroll-smooth">
       <header className="fixed w-full top-0 left-0 backdrop-blur-md">
       <NavMenu />
       </header>
@@ -30,6 +35,7 @@ export default function Home() {
       <footer>
       <RodaPe />
       </footer>
+      </body>
     </html>
   )
 }
