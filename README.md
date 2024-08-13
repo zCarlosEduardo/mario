@@ -9,8 +9,8 @@
 ## 2. Seção de Hero
 
 - **Imagem ou Ilustração Principal**: Mario e Luigi em um uniforme de encanador, com ferramentas de encanamento e um cenário relacionado (como canos, chaves inglesas, etc.).
-- **Título Impactante**: Algo como "Os Encantadores Encanadores do Reino dos Queens!"
-- **Subtítulo**: "Mario e Luigi, os encanadores mais confiáveis do Reino dos Queens, estão aqui para resolver todos os seus problemas de encanamento!"
+- **Título Impactante**: Algo como "Os Encantadores Encanadores do Queens!"
+- **Subtítulo**: "Mario e Luigi, os encanadores mais confiáveis do Queens, estão aqui para resolver todos os seus problemas de encanamento!"
 - **Botões de CTA**: "Agende Agora" e "Peça um Orçamento" com ícones relacionados a encanamento.
 
 ## 3. Seção de Serviços
