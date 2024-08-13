@@ -1,38 +1,15 @@
 export default function Planos() {
     return (
-        <article>
-        <h2>Ofertas Especiais</h2>
+        <article className="text-black flex flex-col items-center text-center">
+        <h2 className="text-2xl font-bold mt-10 mb-3">Ofertas Especiais</h2>
         <div>
-            <div>
-                <img src="" alt="" />
-                <div>
-                    <h3>Encanamentos entupido</h3>
+            <div className="flex flex-col max-w-64 border border-solid border-red-800">
+                    <h3 className="bg-green-800 text-xl font-semibold">Encanamentos entupido</h3>
+                <div >
                     <p>Cansado de encanamentos entupidos? Nós temos a solução!</p>
                     <div>
                         <p>Apartir</p>
                         <a href="">19<span>,90</span></a>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <img src="" alt="" />
-                <div>
-                    <h3>Instalação profissional</h3>
-                    <p>Instalação profissional para todas as suas necessidades de encanamento.</p>
-                    <div>
-                        <p>Apartir</p>
-                        <a href="">59<span>,90</span></a>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <img src="" alt="" />
-                <div>
-                    <h3>Inspeção detalhada</h3>
-                    <p>Inspeção detalhada para garantir a saúde do seu sistema de encanamento.</p>
-                    <div>
-                        <p>Apartir</p>
-                        <a href="">29<span>,90</span></a>
                     </div>
                 </div>
             </div>
