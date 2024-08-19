@@ -1,0 +1,12 @@
+@keyframes bounce-vertical {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-30px);
+    }
+  }
+  
+  .animated-image {
+    animation: bounce-vertical 3s infinite;
+  }

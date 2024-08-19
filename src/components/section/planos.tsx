@@ -1,12 +1,19 @@
+import { Press_Start_2P } from "next/font/google";
+import bgRed from "../../assets/img/bgRed.svg";
+const press2p = Press_Start_2P({
+  weight: '400',
+  preload: false,
+})
+
 export default function Planos() {
   return (
     <article className="text-black flex flex-col items-center text-center">
       <div className="my-7">
         <p className="uppercase font-semibold">Conheça nossos</p>
-        <h2 className="text-white text-5xl font-bold">Planos Especiais</h2>
+        <h2 className="text-white text-6xl font-bold">Planos Especiais</h2>
       </div>
       <div className="m-4">
-        <div className="bg-white rounded-md p-4 ">
+        <div className="bg-white rounded-md py-4 px-4">
           <div className="text-start">
             <h3 className="font-bold text-2xl">Hatchling Plan</h3>
             <p className="text-red-500 font-semibold text-lg">Now 60% off!</p>
@@ -20,7 +27,7 @@ export default function Planos() {
             <p className="pt-1">Free domain included </p>
           </div>
           <div className="my-4">
-            <a href="" className="bg-blue-700 p-4 rounded-md text-white">
+            <a href="" style={press2p.style} className="bg-blue-700 p-4 rounded-md text-white">
               Compre Agora
             </a>
           </div>
@@ -40,7 +47,7 @@ export default function Planos() {
               <p className="pt-1">Free domain included </p>
             </div>
             <div className="my-4">
-              <a href="" className="bg-white p-4 rounded-md text-black">
+              <a href="" style={press2p.style} className="bg-white p-4 rounded-md text-black">
                 Compre Agora
               </a>
             </div>
@@ -60,13 +67,18 @@ export default function Planos() {
               <p className="pt-1">Free domain included </p>
             </div>
             <div className="my-4">
-              <a href="" className="bg-blue-700 p-4 rounded-md text-white">
+              <a href="" style={press2p.style} className="bg-blue-700 p-4 rounded-md text-white">
                 Compre Agora
               </a>
             </div>
           </div>
         </div>
       </div>
+      <img
+          src={bgRed.src}
+          alt="Coin"
+          className="border-b-2 border-red-600 w-full"
+        />
     </article>
   );
 }
