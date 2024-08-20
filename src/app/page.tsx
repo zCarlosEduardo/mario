@@ -58,7 +58,7 @@ export default function Home() {
           </section>
           <section
             id="contato"
-            className="bg-red-600 flex justify-center h-dvh"
+            className="bg-red-600 flex justify-center min-h-dvh"
           >
             <Contato />
           </section>

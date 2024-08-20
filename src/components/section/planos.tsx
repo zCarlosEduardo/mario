@@ -75,7 +75,7 @@ export default function Planos() {
           </div>
         </div>
       </div>
-      <div className='w'>
+      <div className='h-20 w-screen bg_redcontainer'>
       </div>
     </article>
   );

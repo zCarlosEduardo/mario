@@ -1,5 +1,6 @@
 import coin from "../../assets/img/cpoin-removebg-preview 1.svg";
 import "../../assets/style/animateimage.css";
+import '../../assets/style/background.css';
 
 export default function Servicos() {
   return (
@@ -8,7 +9,7 @@ export default function Servicos() {
         <img
           src={coin.src}
           alt="Coin"
-          className="w-22 h-22 object-center animated-image "
+          className="w-22 h-22 object-center animated-coin "
         />
         <span className="uppercase text-blue-700 font-semibold">Conheça nossos</span>
         <h2 className=" text-6xl font-bold text-zinc-900">Serviços</h2>
@@ -50,6 +51,8 @@ export default function Servicos() {
             </p>
           </div>
         </div>
+      </div>
+      <div className='h-96 w-screen bg_bluecontainer'>
       </div>
     </article>
   );

@@ -1,5 +1,5 @@
 import luckyblock from "../../assets/img/luckyblock.svg";
-import marioSmw from "../../assets/img/mariosmw.svg";
+import marioPixel from "../../assets/img/mariosmw.svg";
 
 import { Press_Start_2P } from "next/font/google";
 
@@ -33,11 +33,11 @@ export default function Contato() {
           alt="luckyblock"
           className="w-22 h-22 object-center mt-4"
         />
-        <img
-          src={marioSmw.src}
-          alt="Mario do Super Mario World"
-          className="w-22 h-22 object-center animated-imagesm "
-        />
+          <img
+            src={marioPixel.src}
+            alt="Mario do Super Mario World"
+            className="w-22 h-22 object-center animated-marioworld"
+          />
       </div>
     </article>
   );
