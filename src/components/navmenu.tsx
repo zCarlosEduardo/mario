@@ -42,9 +42,9 @@ const NavMenu = () => {
       {isOpen && (
         <div className="md:hidden bg-white border-t border-gray-200">
           <div className="flex flex-col p-4 space-y-2">
-            <a href="#home" className="text-zinc-900 hover:text-zinc-600 transition-colors text-center" onClick={toggleMenu}>Home</a>
-            <a href="#servicos" className="text-zinc-900 hover:text-zinc-600 transition-colors text-center" onClick={toggleMenu}>Serviços</a>
-            <a href="#contato" className="text-zinc-900 hover:text-zinc-600 transition-colors text-center" onClick={toggleMenu}>Contato</a>
+            <a href="#home" className="text-zinc-900 text-xl hover:text-zinc-600 transition-colors text-center" onClick={toggleMenu}>Home</a>
+            <a href="#servicos" className="text-zinc-900 text-xl hover:text-zinc-600 transition-colors text-center" onClick={toggleMenu}>Serviços</a>
+            <a href="#contato" className="text-zinc-900 text-xl hover:text-zinc-600 transition-colors text-center" onClick={toggleMenu}>Contato</a>
           </div>
         </div>
       )}

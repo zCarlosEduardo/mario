@@ -15,12 +15,12 @@ export default function Servicos() {
         <h2 className=" text-6xl font-bold text-zinc-900">Serviços</h2>
       </div>
       <div>
-        <div className="my-10 mx-3 flex-row flex-wrap">
+        <div className="my-10 mx-5 flex-row flex-wrap">
           <div className="bg-amber-500 rounded-md w-100 h-44 flex flex-col justify-center">
             <h3 className="text-zinc-900 font-bold text-2xl mx-4">
               Desentupimento de Canos
             </h3>
-            <p className="text-zinc-900 my-1 mx-10">
+            <p className="text-zinc-900 text-xl my-1 mx-10">
               Cansado de encanamentos entupidos? Nós temos a solução!
             </p>
           </div>
@@ -28,7 +28,7 @@ export default function Servicos() {
             <h3 className="text-zinc-900 font-bold text-2xl mx-4">
               Reparo de Vazamentos
             </h3>
-            <p className="text-zinc-900 my-1 mx-10">
+            <p className="text-zinc-900 text-xl my-1 mx-10">
               Detectamos e consertamos vazamentos rapidamente.
             </p>
           </div>
@@ -36,7 +36,7 @@ export default function Servicos() {
             <h3 className="text-zinc-900 font-bold text-2xl mx-4">
               Instalação de Tubulações
             </h3>
-            <p className="text-zinc-900 my-1 mx-10">
+            <p className="text-zinc-900 text-xl my-1 mx-10">
               Instalação profissional para todas as suas necessidades de
               encanamento.
             </p>
@@ -45,7 +45,7 @@ export default function Servicos() {
             <h3 className="text-zinc-900 font-bold text-2xl mx-4">
               Inspeção de Encanamento
             </h3>
-            <p className="text-zinc-900 my-1 mx-10">
+            <p className="text-zinc-900 text-xl my-1 mx-10">
               Inspeção detalhada para garantir a saúde do seu sistema de
               encanamento.
             </p>

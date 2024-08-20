@@ -27,9 +27,9 @@ export default function Home() {
             className="h-dvh bg_mario_Luigi_dark flex items-center justify-center"
           >
             <div className="flex justify-center flex-col items-center bottom-0 text-center text-white">
-              <span className=" text-zinc-300">Os Encantadores do Queens!</span>
+              <span className=" text-zinc-300 font-semibold ">Os Encantadores do Queens!</span>
               <h1 className="text-8xl font-bold">Super Mario</h1>
-              <p className="">
+              <p className="text-xl ">
                 Mario e Luigi, os encanadores mais confiáveis do Queens, estão
                 aqui para resolver todos os seus problemas de encanamento!
               </p>
