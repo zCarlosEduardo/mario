@@ -10,7 +10,7 @@ export default function Servicos() {
           alt="Coin"
           className="w-22 h-22 object-center animated-image "
         />
-        <p className="uppercase text-blue-700 font-semibold">Conheça nossos</p>
+        <span className="uppercase text-blue-700 font-semibold">Conheça nossos</span>
         <h2 className=" text-6xl font-bold text-zinc-900">Serviços</h2>
       </div>
       <div>

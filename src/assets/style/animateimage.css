@@ -8,5 +8,19 @@
   }
   
   .animated-image {
-    animation: bounce-vertical 3s infinite;
+    animation: bounce-vertical 5s infinite;
+  }
+
+  @keyframes mario-vertical {
+    0%, 100% {
+      transform: translateY(100px);
+    }
+    50% {
+      transform: translateY(-30px);
+    }
+  }
+  
+
+  .animated-imagesm {
+    animation: mario-vertical 3s infinite;
   }

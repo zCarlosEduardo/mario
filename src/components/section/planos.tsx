@@ -1,5 +1,6 @@
+import '../../assets/style/background.css';
 import { Press_Start_2P } from "next/font/google";
-import bgRed from "../../assets/img/bgRed.svg";
+
 const press2p = Press_Start_2P({
   weight: '400',
   preload: false,
@@ -9,7 +10,7 @@ export default function Planos() {
   return (
     <article className="text-black flex flex-col items-center text-center">
       <div className="my-7">
-        <p className="uppercase font-semibold">Conheça nossos</p>
+        <span className="uppercase font-semibold">Conheça nossos</span>
         <h2 className="text-white text-6xl font-bold">Planos Especiais</h2>
       </div>
       <div className="m-4">
@@ -74,11 +75,8 @@ export default function Planos() {
           </div>
         </div>
       </div>
-      <img
-          src={bgRed.src}
-          alt="Coin"
-          className="border-b-2 border-red-600 w-full"
-        />
+      <div className='w'>
+      </div>
     </article>
   );
 }
