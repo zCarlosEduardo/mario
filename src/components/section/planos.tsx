@@ -28,7 +28,7 @@ export default function Planos() {
             <p className="pt-1 text-xl">Free domain included </p>
           </div>
           <div className="top-4 relative mx-3">
-            <button style={press2p.style} className="bg-blue-700 text-2xl  p-3 rounded-md text-white">
+            <button style={press2p.style} className="bg-blue-700 text-2xl   p-3 rounded-md text-white">
               Compre Agora
             </button>
           </div>
@@ -67,7 +67,7 @@ export default function Planos() {
             <p className="pt-1 text-xl">Free domain included </p>
           </div>
           <div className="top-4 relative mx-3">
-            <button style={press2p.style} className="bg-blue-700 text-2xl  p-3 rounded-md text-white">
+            <button style={press2p.style} className="bg-blue-700 text-2xl   p-3 rounded-md text-white">
               Compre Agora
             </button>
           </div>

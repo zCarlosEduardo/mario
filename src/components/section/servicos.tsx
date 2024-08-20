@@ -52,7 +52,7 @@ export default function Servicos() {
           </div>
         </div>
       </div>
-      <div className='h-96 w-screen bg_bluecontainer'>
+      <div className='h-96 w-screen bg_bluecontainer border-b-2 border-sky-500'>
       </div>
     </article>
   );
