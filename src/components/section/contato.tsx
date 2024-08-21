@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import luckyblock from "../../assets/img/luckyblock.svg";
 import marioPixel from "../../assets/img/mariosmw.svg";
 
@@ -10,7 +11,7 @@ const press2p = Press_Start_2P({
 
 export default function Contato() {
   return (
-    <article className="flex md:flex-row max-md:flex-col md:gap-40 items-center justify-center max-md:text-center mx-8 m-2">
+    <article className="flex flex-col md:flex-row gap-8 md:gap-40 items-center justify-center text-center md:text-left mx-8 m-2">
       <div>
         <span className="uppercase text-zinc-900 font-semibold">entre em</span>
         <h2 className="font-bold uppercase text-6xl text-white">Contato</h2>
@@ -18,25 +19,29 @@ export default function Contato() {
           Entre em contato com Mario e Luigi hoje mesmo e experimente o melhor
           serviço de encanamento do Queens!
         </p>
-        <a href="" style={press2p.style} className="">
+        <a href="" aria-label="Entre em contato">
           <button
-            className="mt-6 text-zinc-900 p-3 rounded-md border-solid
-                 border-zinc-900 border-2 bg-white py-6 hover:text-white hover:bg-zinc-900 transition-colors"
+            className={`mt-6 text-zinc-900 p-3 rounded-md border-2 border-zinc-900 bg-white py-6 
+                        hover:text-white hover:bg-zinc-900 transition-colors ${press2p.className}`}
           >
             Entre em Contato
           </button>
         </a>
       </div>
       <div className="flex flex-col items-center">
-        <img
-          src={luckyblock.src}
-          alt="luckyblock"
-          className="w-22 h-22 object-center mt-4"
+        <Image
+          src={luckyblock}
+          alt="Lucky block"
+          width={88}
+          height={88}
+          className="object-center mt-4"
         />
-        <img
-          src={marioPixel.src}
+        <Image
+          src={marioPixel}
           alt="Mario do Super Mario World"
-          className="w-22 h-22 object-center animated-marioworld"
+          width={88}
+          height={88}
+          className="object-center mt-4 animated-marioworld"
         />
       </div>
     </article>

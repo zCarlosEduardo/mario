@@ -2,11 +2,12 @@ import "./globals.css";
 import "../assets/style/background.css";
 import { Press_Start_2P } from "next/font/google";
 import Head from "next/head";
+import dynamic from 'next/dynamic';
 import NavMenu from "@/components/navmenu";
-import Servicos from "@/components/section/servicos";
-import Planos from "@/components/section/planos";
-import Contato from "@/components/section/contato";
-import RodaPe from "@/components/rodape";
+const Servicos = dynamic(() => import('@/components/section/servicos'));
+const Planos = dynamic(() => import('@/components/section/planos'));
+const Contato = dynamic(() => import('@/components/section/contato'));
+const RodaPe = dynamic(() => import('@/components/rodape'));
 
 const press2p = Press_Start_2P({
   weight: "400",

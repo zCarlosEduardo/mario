@@ -13,88 +13,94 @@ export default function Planos() {
         <span className="uppercase font-semibold">Conheça nossos</span>
         <h2 className="text-white text-6xl font-bold">Planos Especiais</h2>
       </div>
-        <div className="flex flex-row justify-center items-center flex-wrap gap-10 mt-4 mx-5">
-          <div className="bg-white rounded-md py-10 px-4">
-            <div className="text-start">
-              <h3 className="font-bold text-4xl">Hatchling Plan</h3>
-              <p className="text-red-500 font-semibold text-3xl my-2">
-                Now 60% off!
-              </p>
-            </div>
-            <div className="mt-11 mb-12 text-zinc-700 text-start">
-              <p className="pb-1 text-xl">Single website </p>
-              <p className="py-1 text-xl">One-click WordPress installs </p>
-              <p className="py-1 text-xl">
-                Free WordPress/cPanel website transfer
-              </p>
-              <p className="py-1 text-xl">Unmetered bandwidth </p>
-              <p className="py-1 text-xl">Free SSL certificate </p>
-              <p className="pt-1 text-xl">Free domain included </p>
-            </div>
-            <div className="top-4 relative mx-3">
-              <button
-                style={press2p.style}
-                className="bg-blue-700 text-xl p-3 rounded-md text-white hover:bg-lime-700 transition-colors"
-              >
-                Compre Agora
-              </button>
-            </div>
+      <div className="flex flex-col lg:flex-row lg:justify-center gap-6">
+        {/* Plano Básico */}
+        <div className="bg-white shadow-lg rounded-lg p-6 w-full max-w-xs flex flex-col justify-between">
+          <div>
+            <h2 className="text-3xl font-semibold text-zinc-900 text-start">
+              Plano Básico
+            </h2>
+            <p className="text-red-500 text-xl text-start font-medium">
+              Agora com 20% de desconto!
+            </p>
+            <ul className="mt-4 text-zinc-700 text-start flex flex-col gap-1 text-lg">
+              <li>Inspeção inicial gratuita</li>
+              <li>Reparos de vazamentos simples</li>
+              <li>Desentupimento de ralos e pias</li>
+              <li>Atendimento rápido e eficiente</li>
+              <li>
+                Garantia de 30 dias para qualquer problema relacionado ao
+                serviço prestado
+              </li>
+            </ul>
           </div>
-            <div className="bg-blue-700 rounded-md py-10 px-4">
-              <div className="text-start">
-                <h3 className="font-bold text-zinc-50 text-4xl">
-                  Hatchling Plan
-                </h3>
-                <p className="text-zinc-100 font-semibold text-3xl my-2">
-                  Now 60% off!
-                </p>
-              </div>
-              <div className="mt-11 mb-12 text-zinc-200 text-start">
-                <p className="pb-1 text-xl">Single website </p>
-                <p className="py-1 text-xl">One-click WordPress installs </p>
-                <p className="py-1 text-xl">
-                  Free WordPress/cPanel website transfer
-                </p>
-                <p className="py-1 text-xl">Unmetered bandwidth </p>
-                <p className="py-1 text-xl">Free SSL certificate </p>
-                <p className="pt-1 text-xl">Free domain included </p>
-              </div>
-              <div className="top-4 relative mx-3">
-                <button
-                  style={press2p.style}
-                  className="bg-white text-xl p-3 rounded-md text-zinc-900"
-                >
-                  Compre Agora
-                </button>
-              </div>
-            </div>
-            <div className="bg-white rounded-md py-10 px-4">
-              <div className="text-start">
-                <h3 className="font-bold text-4xl">Hatchling Plan</h3>
-                <p className="text-red-500 font-semibold text-3xl my-2">
-                  Now 60% off!
-                </p>
-              </div>
-              <div className="mt-11 mb-12 text-zinc-700 text-start">
-                <p className="pb-1 text-xl">Single website </p>
-                <p className="py-1 text-xl">One-click WordPress installs </p>
-                <p className="py-1 text-xl">
-                  Free WordPress/cPanel website transfer
-                </p>
-                <p className="py-1 text-xl">Unmetered bandwidth </p>
-                <p className="py-1 text-xl">Free SSL certificate </p>
-                <p className="pt-1 text-xl">Free domain included </p>
-              </div>
-              <div className="top-4 relative mx-3">
-                <button
-                  style={press2p.style}
-                  className="bg-blue-700 text-xl p-3 rounded-md text-white hover:bg-lime-700 transition-colors"
-                >
-                  Compre Agora
-                </button>
-              </div>
-            </div>
+          <a
+            href="#"
+            className={`block mt-6 bg-blue-700 text-white text-center py-4 px-4 rounded-md hover:bg-lime-700 transition-colors ${press2p.className}`}
+          >
+            Compre Agora
+          </a>
         </div>
+        
+        {/* Plano Premium */}
+        <div className="bg-blue-700 shadow-lg rounded-lg p-6 w-full max-w-xs flex flex-col justify-between">
+          <div>
+            <h2 className="text-3xl font-semibold text-white text-start">
+              Plano Premium
+            </h2>
+            <p className="text-zinc-200 text-xl text-start font-medium">
+              Desconto especial de 40%!
+            </p>
+            <ul className="mt-4 text-zinc-300 text-start flex flex-col gap-1 text-lg">
+              <li>Inspeção completa e consultoria especializada</li>
+              <li>
+                Reparos extensivos e instalação de novos componentes se
+                necessário
+              </li>
+              <li>Manutenção preventiva regular</li>
+              <li>Atendimento prioritário e consultoria contínua</li>
+              <li>
+                Garantia de 90 dias para qualquer problema relacionado ao
+                serviço prestado
+              </li>
+            </ul>
+          </div>
+          <a
+            href="#"
+            className={`block mt-6 bg-white border-2 border-zinc-800 text-zinc-900 text-center py-4 px-4 rounded-md hover:text-white hover:bg-zinc-800 transition-colors ${press2p.className}`}
+          >
+            Compre Agora
+          </a>
+        </div>
+        
+        {/* Plano Intermediário */}
+        <div className="bg-white shadow-lg rounded-lg p-6 w-full max-w-xs flex flex-col justify-between">
+          <div>
+            <h2 className="text-3xl font-semibold text-zinc-900 text-start">
+              Plano Intermediário
+            </h2>
+            <p className="text-red-500 text-xl text-start font-medium">
+              Aproveite 30% de desconto!
+            </p>
+            <ul className="mt-4 text-zinc-700 text-start flex flex-col gap-1 text-lg">
+              <li>Inspeção e análise detalhada do sistema de encanamento</li>
+              <li>Reparos e substituições de peças necessárias</li>
+              <li>Desentupimento de tubulações e ralos</li>
+              <li>Manutenção preventiva inclusa</li>
+              <li>
+                Garantia de 60 dias para qualquer problema relacionado ao
+                serviço prestado
+              </li>
+            </ul>
+          </div>
+          <a
+            href="#"
+            className={`block mt-6 bg-blue-700 text-white text-center py-4 px-4 rounded-md hover:bg-lime-700 transition-colors ${press2p.className}`}
+          >
+            Compre Agora
+          </a>
+        </div>
+      </div>
       <div className="h-32 w-screen bg_redcontainer"></div>
     </article>
   );
