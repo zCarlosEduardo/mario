@@ -8,7 +8,7 @@
   }
   
   .animated-coin {
-    animation: coin-vertical 5s infinite;
+    animation: coin-vertical 4s infinite;
   }
 
   @keyframes mario-vertical {
@@ -31,5 +31,5 @@
   
 
   .animated-marioworld {
-    animation: mario-vertical 5s infinite;
+    animation: mario-vertical 4s infinite;
   }

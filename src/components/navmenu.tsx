@@ -26,13 +26,10 @@ const NavMenu = () => {
 
         {/* Links for Desktop */}
         <div className="hidden md:flex flex-grow justify-center space-x-4">
-          <a href="#home" className="text-zinc-900 hover:text-zinc-600 transition-colors">Home</a>
-          <a href="#servicos" className="text-zinc-900 hover:text-zinc-600 transition-colors">Serviços</a>
-          <a href="#contato" className="text-zinc-900 hover:text-zinc-600 transition-colors">Contato</a>
+          <a href="#home" className="text-zinc-900 hover:text-red-600 transition-colors">Home</a>
+          <a href="#servicos" className="text-zinc-900 hover:text-red-600 transition-colors">Serviços</a>
+          <a href="#contato" className="text-zinc-900 hover:text-red-600 transition-colors">Contato</a>
         </div>
-        <button className="hidden md:block border-2 border-black bg-white p-1 rounded-md text-xs">
-          <span className=" text-xs font-semibold text-zinc-900" style={press2p.style}>Agende um Serviço</span>
-        </button>
         <div className="md:hidden">
           <button onClick={toggleMenu} aria-label="Toggle menu">
             <FontAwesomeIcon icon={faBars} className="text-zinc-900 text-2xl" />
