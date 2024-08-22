@@ -10,17 +10,17 @@ export default function Servicos() {
         <img
           src={coin.src}
           alt="Coin"
-          className="w-22 h-22 object-center animated-coin"
+          className="w-24 h-24 object-center animated-coin" // Ajustado para w-24 e h-24
         />
         <span className="uppercase text-blue-700 font-semibold">
           Conheça nossos
         </span>
         <h2 className="text-6xl font-bold text-zinc-900">Serviços</h2>
       </div>
-      <div className="my-10 flex flex-row max-lg:flex-wrap justify-center items-center">
-        <div className="flex flex-row flex-wrap gap-5 mx-5 justify-center">
+      <div className="my-10 flex flex-wrap lg:flex-nowrap justify-center items-center">
+        <div className="flex flex-wrap gap-5 mx-5 justify-center">
           {/* Serviço 1 */}
-          <div className="bg-amber-500 rounded-md max-w-xs min-h-44 max-h-64 flex flex-col justify-center p-4">
+          <div className="bg-amber-500 rounded-md max-w-xs min-h-[11rem] max-h-64 flex flex-col justify-center p-4">
             <h3 className="text-zinc-900 font-bold text-2xl">
               Desentupimento de Canos
             </h3>
@@ -29,7 +29,7 @@ export default function Servicos() {
             </p>
           </div>
           {/* Serviço 2 */}
-          <div className="bg-amber-500 rounded-md max-w-xs min-h-44 max-h-64 flex flex-col justify-center p-4">
+          <div className="bg-amber-500 rounded-md max-w-xs min-h-[11rem] max-h-64 flex flex-col justify-center p-4">
             <h3 className="text-zinc-900 font-bold text-2xl">
               Reparo de Vazamentos
             </h3>
@@ -38,7 +38,7 @@ export default function Servicos() {
             </p>
           </div>
           {/* Serviço 3 */}
-          <div className="bg-amber-500 rounded-md max-w-xs min-h-44 max-h-64 flex flex-col justify-center p-4">
+          <div className="bg-amber-500 rounded-md max-w-xs min-h-[11rem] max-h-64 flex flex-col justify-center p-4">
             <h3 className="text-zinc-900 font-bold text-2xl">
               Instalação de Tubulações
             </h3>
@@ -48,7 +48,7 @@ export default function Servicos() {
             </p>
           </div>
           {/* Serviço 4 */}
-          <div className="bg-amber-500 rounded-md max-w-xs min-h-44 max-h-64 flex flex-col justify-center p-4">
+          <div className="bg-amber-500 rounded-md max-w-xs min-h-[11rem] max-h-64 flex flex-col justify-center p-4">
             <h3 className="text-zinc-900 font-bold text-2xl">
               Inspeção de Encanamento
             </h3>

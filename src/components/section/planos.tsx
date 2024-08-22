@@ -17,9 +17,9 @@ export default function Planos() {
         {/* Plano Básico */}
         <div className="bg-white shadow-lg rounded-lg p-6 w-full max-w-xs flex flex-col justify-between">
           <div>
-            <h2 className="text-3xl font-semibold text-zinc-900 text-start">
+            <h3 className="text-3xl font-semibold text-zinc-900 text-start">
               Plano Básico
-            </h2>
+            </h3>
             <p className="text-red-500 text-xl text-start font-medium">
               Agora com 20% de desconto!
             </p>
@@ -36,19 +36,20 @@ export default function Planos() {
           </div>
           <a
             href="#"
-            className={`block mt-6 bg-blue-700 text-white text-center py-4 px-4 rounded-md hover:bg-lime-700 transition-colors ${press2p.className}`}
+            className={`block mt-6 bg-blue-700 text-white text-center py-4 px-4 rounded-md hover:bg-blue-900 transition-colors ${press2p.className}`}
+            aria-label="Comprar Plano Básico"
           >
             Compre Agora
           </a>
         </div>
-        
+
         {/* Plano Premium */}
         <div className="bg-blue-700 shadow-lg rounded-lg p-6 w-full max-w-xs flex flex-col justify-between">
           <div>
-            <h2 className="text-3xl font-semibold text-white text-start">
+            <h3 className="text-3xl font-semibold text-white text-start">
               Plano Premium
-            </h2>
-            <p className="text-zinc-200 text-xl text-start font-medium">
+            </h3>
+            <p className="text-red-50 text-xl text-start font-medium">
               Desconto especial de 40%!
             </p>
             <ul className="mt-4 text-zinc-300 text-start flex flex-col gap-1 text-lg">
@@ -68,17 +69,18 @@ export default function Planos() {
           <a
             href="#"
             className={`block mt-6 bg-white border-2 border-zinc-800 text-zinc-900 text-center py-4 px-4 rounded-md hover:text-white hover:bg-zinc-800 transition-colors ${press2p.className}`}
+            aria-label="Comprar Plano Premium"
           >
             Compre Agora
           </a>
         </div>
-        
+
         {/* Plano Intermediário */}
         <div className="bg-white shadow-lg rounded-lg p-6 w-full max-w-xs flex flex-col justify-between">
           <div>
-            <h2 className="text-3xl font-semibold text-zinc-900 text-start">
+            <h3 className="text-3xl font-semibold text-zinc-900 text-start">
               Plano Intermediário
-            </h2>
+            </h3>
             <p className="text-red-500 text-xl text-start font-medium">
               Aproveite 30% de desconto!
             </p>
@@ -95,13 +97,13 @@ export default function Planos() {
           </div>
           <a
             href="#"
-            className={`block mt-6 bg-blue-700 text-white text-center py-4 px-4 rounded-md hover:bg-lime-700 transition-colors ${press2p.className}`}
+            className={`block mt-6 bg-blue-700 text-white text-center py-4 px-4 rounded-md hover:bg-blue-900 transition-colors ${press2p.className}`}
+            aria-label="Comprar Plano Intermediário"
           >
             Compre Agora
           </a>
         </div>
       </div>
-      <div className="h-32 w-screen bg_redcontainer"></div>
     </article>
   );
 }

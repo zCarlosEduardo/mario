@@ -1,6 +1,7 @@
 import "./globals.css";
 import "../assets/style/background.css";
 import { Press_Start_2P } from "next/font/google";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import Head from "next/head";
 import dynamic from 'next/dynamic';
 import NavMenu from "@/components/navmenu";
@@ -64,6 +65,7 @@ export default function Home() {
           </section>
           <section id="planos" className=" bg-sky-500 ">
             <Planos />
+          <div className="h-32 w-full bg_redcontainer"></div>
           </section>
           <section
             id="contato"
