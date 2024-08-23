@@ -15,7 +15,7 @@ export default function Planos() {
       </div>
       <div className="flex flex-col lg:flex-row lg:justify-center gap-6">
         {/* Plano Básico */}
-        <div className="bg-white shadow-lg rounded-lg p-6 w-full max-w-xs flex flex-col justify-between">
+        <div className="bg-white shadow-lg rounded-lg order-1 p-6 w-full max-w-xs flex flex-col justify-between">
           <div>
             <h3 className="text-3xl font-semibold text-zinc-900 text-start">
               Plano Básico
@@ -44,7 +44,7 @@ export default function Planos() {
         </div>
 
         {/* Plano Premium */}
-        <div className="bg-blue-700 shadow-lg rounded-lg p-6 w-full max-w-xs flex flex-col justify-between">
+        <div className="bg-blue-700 shadow-lg rounded-lg p-6 w-full max-w-xs flex flex-col justify-between md:order-3 xl:order-2">
           <div>
             <h3 className="text-3xl font-semibold text-white text-start">
               Plano Premium
@@ -76,7 +76,7 @@ export default function Planos() {
         </div>
 
         {/* Plano Intermediário */}
-        <div className="bg-white shadow-lg rounded-lg p-6 w-full max-w-xs flex flex-col justify-between">
+        <div className="bg-white shadow-lg rounded-lg p-6 w-full max-w-xs flex flex-col justify-between md:order-2 xl:order-3">
           <div>
             <h3 className="text-3xl font-semibold text-zinc-900 text-start">
               Plano Intermediário
