@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import coin from "../../assets/img/cpoin-removebg-preview 1.svg";
+import coin from "../../assets/img/coin.svg";
 import marioLuigi from "../../assets/img/MarioLuigi.svg";
 import "../../assets/style/animateimage.css";
 
