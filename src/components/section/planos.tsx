@@ -1,4 +1,3 @@
-import "../../assets/style/background.css";
 import { Press_Start_2P } from "next/font/google";
 
 const press2p = Press_Start_2P({
@@ -10,12 +9,14 @@ export default function Planos() {
   return (
     <article className="text-black flex flex-col items-center text-center">
       <div className="my-7">
-        <span className="uppercase font-semibold">Conheça nossos</span>
+        <span className="uppercase font-semibold text-blue-700">
+          Conheça nossos
+        </span>
         <h2 className="text-white text-6xl font-bold">Planos Especiais</h2>
       </div>
       <div className="flex flex-col lg:flex-row lg:justify-center gap-6">
         {/* Plano Básico */}
-        <div className="bg-white shadow-lg rounded-lg order-1 p-6 w-full max-w-xs flex flex-col justify-between">
+        <div className="bg-white shadow-lg rounded-lg p-6 w-full max-w-xs flex flex-col justify-between">
           <div>
             <h3 className="text-3xl font-semibold text-zinc-900 text-start">
               Plano Básico
@@ -37,14 +38,14 @@ export default function Planos() {
           <a
             href="#"
             className={`block mt-6 bg-blue-700 text-white text-center py-4 px-4 rounded-md hover:bg-blue-900 transition-colors ${press2p.className}`}
-            aria-label="Comprar Plano Básico"
+            aria-label="Comprar Plano Básico - Inspeção gratuita e reparos simples"
           >
             Compre Agora
           </a>
         </div>
 
         {/* Plano Premium */}
-        <div className="bg-blue-700 shadow-lg rounded-lg p-6 w-full max-w-xs flex flex-col justify-between md:order-3 xl:order-2">
+        <div className="bg-blue-700 shadow-lg rounded-lg p-6 w-full max-w-xs flex flex-col justify-between">
           <div>
             <h3 className="text-3xl font-semibold text-white text-start">
               Plano Premium
@@ -69,14 +70,14 @@ export default function Planos() {
           <a
             href="#"
             className={`block mt-6 bg-white border-2 border-zinc-800 text-zinc-900 text-center py-4 px-4 rounded-md hover:text-white hover:bg-zinc-800 transition-colors ${press2p.className}`}
-            aria-label="Comprar Plano Premium"
+            aria-label="Comprar Plano Premium - Inspeção completa e manutenção regular"
           >
             Compre Agora
           </a>
         </div>
 
         {/* Plano Intermediário */}
-        <div className="bg-white shadow-lg rounded-lg p-6 w-full max-w-xs flex flex-col justify-between md:order-2 xl:order-3">
+        <div className="bg-white shadow-lg rounded-lg p-6 w-full max-w-xs flex flex-col justify-between">
           <div>
             <h3 className="text-3xl font-semibold text-zinc-900 text-start">
               Plano Intermediário
@@ -98,7 +99,7 @@ export default function Planos() {
           <a
             href="#"
             className={`block mt-6 bg-blue-700 text-white text-center py-4 px-4 rounded-md hover:bg-blue-900 transition-colors ${press2p.className}`}
-            aria-label="Comprar Plano Intermediário"
+            aria-label="Comprar Plano Intermediário - Inspeção e manutenção inclusa"
           >
             Compre Agora
           </a>

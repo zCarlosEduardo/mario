@@ -36,20 +36,45 @@ const NavMenu = () => {
         <div className="md:hidden">
           <button 
             onClick={toggleMenu} 
-            aria-label="Toggle menu" 
+            aria-label={isOpen ? "Fechar menu" : "Abrir menu"} 
             aria-expanded={isOpen}
+            className="text-zinc-900 text-2xl"
           >
-            <FontAwesomeIcon icon={isOpen ? faTimes : faBars} className="text-zinc-900 text-2xl" />
+            <FontAwesomeIcon icon={isOpen ? faTimes : faBars} />
           </button>
         </div>
       </div>
 
       {/* Mobile Menu */}
-      <div className={`md:hidden bg-white border-t border-gray-300 ${isOpen ? 'block' : 'hidden'}`}>
-        <div className="flex flex-col p-4 space-y-5 ">
-          <a href="#home" className="text-zinc-900 text-xl hover:text-zinc-600 transition-colors text-center border-x-2" onClick={toggleMenu}>Home</a>
-          <a href="#servicos" className="text-zinc-900 text-xl hover:text-zinc-600 transition-colors text-center border-x-2" onClick={toggleMenu}>Serviços</a>
-          <a href="#contato" className="text-zinc-900 text-xl hover:text-zinc-600 transition-colors text-center border-x-2" onClick={toggleMenu}>Contato</a>
+      <div 
+        className={`md:hidden bg-white border-t border-gray-300 ${isOpen ? 'block' : 'hidden'}`}
+        role="navigation"
+      >
+        <div className="flex flex-col p-4 space-y-5">
+          <a 
+            href="#home" 
+            className="text-zinc-900 text-xl hover:text-zinc-600 transition-colors text-center border-x-2" 
+            onClick={toggleMenu}
+            role="button"
+          >
+            Home
+          </a>
+          <a 
+            href="#servicos" 
+            className="text-zinc-900 text-xl hover:text-zinc-600 transition-colors text-center border-x-2" 
+            onClick={toggleMenu}
+            role="button"
+          >
+            Serviços
+          </a>
+          <a 
+            href="#contato" 
+            className="text-zinc-900 text-xl hover:text-zinc-600 transition-colors text-center border-x-2" 
+            onClick={toggleMenu}
+            role="button"
+          >
+            Contato
+          </a>
         </div>
       </div>
     </nav>
