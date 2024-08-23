@@ -9,7 +9,7 @@ export default function Planos() {
   return (
     <article className="text-black flex flex-col items-center text-center">
       <div className="my-7">
-        <span className="uppercase font-semibold text-blue-700">
+        <span className="uppercase font-semibold ">
           Conheça nossos
         </span>
         <h2 className="text-white text-6xl font-bold">Planos Especiais</h2>
